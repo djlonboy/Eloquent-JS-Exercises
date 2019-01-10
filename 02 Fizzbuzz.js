@@ -21,13 +21,13 @@ let outputText = "";
 for (let numberList = 0; numberList < 101; numberList++) {
 
   if (numberList % 3 ==0 && numberList % 5 == 0) {
-  	outputText += "fizzbuzz ";
+  	outputText += "FizzBuzz ";
   }
   else if (numberList % 3 == 0) {
-  	outputText += "fizz ";
+  	outputText += "Fizz ";
   }
   else if (numberList % 5 == 0) {
-  	outputText += "buzz "; 
+  	outputText += "Buzz "; 
   }
   else
 	outputText += numberList + " "
@@ -42,10 +42,10 @@ let wordString = "";
 for (let numberList = 0; numberList < 101; numberList++) {
 
   if (numberList % 3 == 0) {
-  	wordString = "fizz";
+  	wordString = "Fizz";
   }
   if (numberList % 5 == 0) {
-  	wordString += "buzz";
+  	wordString += "Buzz";
   }
 
   outputText += (wordString || numberList) + " "
